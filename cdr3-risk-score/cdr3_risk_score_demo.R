@@ -1,11 +1,11 @@
-#demo of calculating CDR3 risk score
+#this is an exaple code to calculate CDR3 risk score
 
 x <- c(
    "CASGKQQGEAF","CASSVGQGLGYTF","CSQAPSREERGEDTQYF",
    "CASSQDRVGGTDTQYF","CASSGSLTGTGGAEAF","CSASGTGEGYTF","CASSLRGFIQPNEQF","CASFLGPVFPGGYTF"
 )  #simulated CDR3 sequences
 
-#example of celiac disease score
+#example of celiac disease score, use different RData for each of three disease (celiac disease, rheumatoid arthritis, or type 1 diabetes)
 load("HIP_celiac_score_aausage_normbetas_v1.RData")
 pos_beta_all <- as.data.frame(out)
 
