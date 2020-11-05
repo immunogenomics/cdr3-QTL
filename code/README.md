@@ -1,1 +1,1 @@
-This explans the code used in the multivariate multiple linear regression model.
+## the code used in this project.
