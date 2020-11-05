@@ -9,6 +9,7 @@ We utilized publicly available TCR dataset. All raw TCR sequence data and genoty
 ## Results 1: the main results from cdr3-QTL analysis
 We utilized three different linear models as explained in this figure.
 
+
 ![image](./figure/Fig1.png)
 
 ## Results 2: CDR3 risk score
