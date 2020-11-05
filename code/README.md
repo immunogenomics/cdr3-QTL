@@ -9,19 +9,18 @@
 - cdr3_aa_pheno_cor_vgene_v3.R
 - cdr3_aa_vjgene_var_v3.R
 - phenotype_pro_ratio.sh
-- phenotype_pro_ratio_downsample.sh
 
-### Scripts for generating CDR3 phenotypes
-- cdr3_aaratio_length.sh
-- cdr3_aaratio_length_ce.sh
-- cdr3_aaratio_length_cond_vgene.sh
-- cdr3_aaratio_length_cond_jgene.sh
-- cdr3_aaratio_length_nopub.sh
-- cdr3_aaratio_nonpro_length.sh
+### Scripts for generating CDR3 phenotypes (=amino acid usage frequency)
+- cdr3_aaratio_length.sh: generating productive CDR3 phenotypes (used for the main analysis)
+- cdr3_aaratio_length_ce.sh: generating productive CDR3 phenotypes including clonal expansion effects
+- cdr3_aaratio_length_cond_vgene.sh: generating productive CDR3 phenotypes conditioning on V gene usage
+- cdr3_aaratio_length_cond_jgene.sh: generating productive CDR3 phenotypes conditioning on J gene usage
+- cdr3_aaratio_length_nopub.sh: generating productive CDR3 phenotypes excluding public clonotypes
+- cdr3_aaratio_nonpro_length.sh: generating non-productive CDR3 phenotypes
+- phenotype_pro_ratio_downsample.sh: generating downsampled productive CDR3 phenotypes
 
 ### Scripts for cdr3-QTL analysis using HLA amino acid genotype (linear regression)
 - lm_length_productive_v1_cov.R
-
 
 ### Scripts for cdr3-QTL analysis using HLA amino acid genotype conditioning on V/J usage (linear mixed model)
 - lmm_hip_v3_length_vfixed_cov.R
@@ -40,4 +39,3 @@
 
 ### Scripts for removing public clonotypes
 - remove_public_clonotype.sh
-
