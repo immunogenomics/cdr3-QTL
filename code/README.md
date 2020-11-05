@@ -1,1 +1,1 @@
-## the code used in this project.
+## The code used in this project.
