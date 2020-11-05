@@ -10,7 +10,7 @@ We utilized publicly available TCR dataset. All raw TCR sequence data and genoty
 We utilized three different linear models as explained in this figure.
 
 
-![image](./figure/Fig1.png)
+![image](./figure/Fig1_1.png)
 
 ## Results 2: CDR3 risk score
 We developed a scoring system that quantifies the enrichment of these patterns in a given CDR3 sequence (we refer to this as the CDR3 risk score).
