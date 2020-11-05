@@ -1,7 +1,7 @@
 ## The code used in this project.
 
 ### Explanation about multivariate multple linear regressino
-- manova_cdr3QTL_demo_v1.pdf: explains how P values and variance explained was calculated in this project.
+- manova_cdr3QTL_demo_v1.pdf: explains how P values (based on MANOVA model comparison) and variance explained were calculated in this project.
 - example_data_HLA_DRB1_site13_L13P109.RData: data used in this explanation.
 
 ### Scripts for CDR3 data structure (entropy and mutual information)
