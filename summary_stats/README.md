@@ -13,6 +13,5 @@ cdr3-QTL analysis results using amino acid genotype and linear regression model.
 cdr3-QTL analysis results using HLA risk scores and linear regression model.
 
 ### 5, cdr3qtl_LM_hla_risk_score_aa_feature_all_results.txt.gz
-cdr3-QTL analysis results using HLA risk scores and linear regression model
-The phenotype is amino acid features, not amino acid frequencies.
+cdr3-QTL analysis results using HLA risk scores and linear regression model. The phenotype is amino acid features, not amino acid frequencies.
 
