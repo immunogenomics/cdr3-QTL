@@ -1,4 +1,5 @@
-#this is an exaple code to calculate CDR3 risk score
+#this is an exaple code to calculate CDR3 risk score.
+#the analysis is resticted to CDR3 sequences with length of 12-18 amino acids.
 
 x <- c(
    "CASGKQQGEAF","CASSVGQGLGYTF","CSQAPSREERGEDTQYF",
