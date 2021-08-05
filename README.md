@@ -1,10 +1,18 @@
 # Overview
 We tested associations between HLA genotypes and TCR-CDR3 amino acid compositions. We treated the amino acid composition of CDR3 as a quantitative trait, and tested its association with HLA genotypes; we call this CDR3 quantitative trait loci analysis (cdr3-QTL). This webpage contains the codes and the summary statistics from our cdr3-QTL analysis. 
-- Reference: https://www.medrxiv.org/content/10.1101/2020.11.08.20227983v1
+- Reference: Ishigaki K et al. HLA autoimmune risk alleles restrict the hypervariable region of T cell receptors. MedRxiv 2020 (https://www.medrxiv.org/content/10.1101/2020.11.08.20227983v1
 
 ## Main dataset
-We utilized publicly available TCR dataset. All raw TCR sequence data and genotype data of the main dataset are available at Adaptive Biotechnologies immuneACCESS site: https://clients.adaptivebiotech.com/pub/emerson-2017-natgen
+We analyzed publicly available TCR dataset. All raw TCR sequence data and genotype data of the main dataset are available at Adaptive Biotechnologies immuneACCESS site: https://clients.adaptivebiotech.com/pub/emerson-2017-natgen
 - Reference: Emerson, R. O. et al. Immunosequencing identifies signatures of cytomegalovirus exposure history and HLA-mediated effects on the T cell repertoire. Nat. Genet. 1–10 (2017). doi:10.1038/ng.3822
+
+## Why we conducted this study?
+- Polymorphisms in the human leukocyte antigen (HLA) genes within the major histocompatibility complex (MHC) locus strongly influence autoimmune disease risk.
+- Two non-exclusive hypotheses exist about the pathogenic role of HLA alleles:
+- i) the central hypothesis, where HLA risk alleles influence thymic selection so that the probability of T cell receptors (TCRs) reactive to pathogenic antigens is increased
+- ii) the peripheral hypothesis, where HLA risk alleles increase the affinity for pathogenic antigens. 
+- The peripheral hypothesis has been the main research focus in autoimmunity, while human data on the central hypothesis are lacking.
+- Therefore, to explore genetic evidence supporting the central hypothesis, we investigated the influence of HLA alleles on TCR composition at the highly diverse complementarity determining region 3 (CDR3), where TCR recognizes antigens.
 
 ## How we generated quantitative phenotypes from TCR sequence data?
 - Our strategy to prepare quantitative phenotype of CDR3. We utilized amino acid frequencies (panel a). In this example, alanine (A) usage ratio at CDR3 position 110 is calculated for each individual.
