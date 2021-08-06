@@ -30,6 +30,7 @@ We analyzed publicly available TCR dataset. All raw TCR sequence data and genoty
 - When a file name includes "rm_gl", it indicates that the results were based on CDR3 phenotypes excluding germline-encoded sequences.
 
 ### Results 2: CDR3 risk score
+- **We provided an example script to calculate CDR3 risk scores (../cdr3-risk-score/cdr3_risk_score_demo.R).**
 - From results 1, we found many CDR3 amino acid patterns associated wit HLA risk of autoimmune diseases. We developed a scoring system that quantifies the enrichment of these patterns in a given CDR3 sequence (we refer to this as the CDR3 risk score). 
 - This is a schematic explanation of our strategy to calculate CDR3 risk score. The table shows the effect size estimate of cdr3-QTL analysis based on HLA risk scores (explained in our manuscript). Effect sizes for corresponding amino acids are summed when such amino acids exist in a target CDR3 sequence. This sum is defined as the CDR3 risk score. Effect sizes which passed a P value threshold were utilized. Although the threshold of P < 0.05 is used in this example figure, we used the Bonferroni corrected P < 0.05 in our final analysis.
 
