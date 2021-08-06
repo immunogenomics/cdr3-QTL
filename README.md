@@ -18,7 +18,7 @@ We analyzed publicly available TCR dataset. All raw TCR sequence data and genoty
 - Our strategy to prepare quantitative phenotype of CDR3. We utilized amino acid frequencies (panel a). In this example, alanine (A) usage ratio at CDR3 position 110 is calculated for each individual.
 
 ## Main models in our analysis (panel b)
-- *We prepared a vignette and example input datasets to explan our models (./vignettes/example_cdr3QTL_v2.ipynb and ./vignettes/DRB1_site13_L13CDR3_p109.RData)*
+- **We prepared a vignette and example input datasets to explan our models (./vignettes/example_cdr3QTL_v2.ipynb and ./vignettes/DRB1_site13_L13CDR3_p109.RData)**
 - (i) multivariate multiple linear regression: a vector of frequency of 20 amino acids at a given position of CDR3 is the response variable; all amino acid alleles except one at a site of HLA are the explanatory variables.
 - (ii) linear regression model: the frequency of a single amino acid at a position of CDR3 is the response variable; a single amino acid allele at a site of HLA is the explanatory variable.
 
