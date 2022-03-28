@@ -28,5 +28,7 @@ same as 4-1, but used CDR3 phenotypes excluding germline-encoded sequences (main
 cdr3-QTL analysis results using HLA risk scores and linear regression model. The phenotype is amino acid features, not amino acid frequencies.
 
 ### 5-2, cdr3qtl_LM_hla_risk_score_aa_feature_all_results.rm_gl.txt.gz
-save as 5-1, but used CDR3 phenotypes excluding germline-encoded sequences (main results in the manuscript).
+same as 5-1, but used CDR3 phenotypes excluding germline-encoded sequences (main results in the manuscript).
 
+### 6-1, VJgene_LM_classical_geno_all_results.txt.gz
+QTL analysis results against V/J gene usages using classical allele genotype and linear regression model.
