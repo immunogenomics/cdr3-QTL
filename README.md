@@ -37,3 +37,8 @@ We analyzed a publicly available TCR dataset. All raw TCR sequence data and geno
 
 ![image](./figure/Fig2.png)
 
+## How the CDR3 amino acid phenotypes were calclated?
+- **We prepared a vignette explaining how we created CDR3 amino acid (AA) phenotypes in our manuscript (./vignettes/cdr3_phenotype_demo_v1.ipynb)**.
+- Essentially, we simply used AA usage frequencies as illustrated below. 
+
+![image](./figure/Fig3.png)
